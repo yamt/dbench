@@ -30,7 +30,7 @@
 struct options options = {
 	.backend             = "fileio",
 	.timelimit           = 600,
-	.loadfile            = DATADIR "/client.txt",
+	.loadfile            = DOCDIR "/loadfiles/client.txt",
 	.directory           = ".",
 	.tcp_options         = TCP_OPTIONS,
 	.nprocs              = 10,
