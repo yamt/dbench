@@ -22,7 +22,11 @@
 #include "libnfs.h"
 #include <sys/types.h>
 #include <sys/stat.h>
+#include <inttypes.h>
 #include <fcntl.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
 
 #define discard_const(ptr) ((void *)((intptr_t)(ptr)))
 
