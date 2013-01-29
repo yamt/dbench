@@ -537,6 +537,7 @@ static void fio_deltree(struct dbench_op *op)
 		free(fname);
 	}
 	closedir(d);
+	rmdir(op->fname);
 }
 
 static void fio_cleanup(struct child_struct *child)
